@@ -52,25 +52,15 @@ export default function LandingPage() {
 
           </h1>
 
-          <p className="mx-auto mt-7 max-w-2xl text-lg leading-8 text-[#f7e9ee]/90 md:text-xl">
+          {/* <p className="mx-auto mt-7 max-w-2xl text-lg leading-8 text-[#f7e9ee]/90 md:text-xl">
 
             Imaginative. Expressive. Storyteller.
 
-          </p>
+          </p> */}
 
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
 
-            <a
-
-              href="/contact"
-
-              className="rounded-full bg-[#d89aaa] px-8 py-4 text-sm font-semibold uppercase tracking-[0.22em] text-[#160b11] shadow-lg shadow-black/20 transition-all duration-300 hover:-translate-y-1 hover:bg-[#f1bdcb]"
-
-            >
-
-              Contact Her for Work
-
-            </a>
+        
 
             <a
 

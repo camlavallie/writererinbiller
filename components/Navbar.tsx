@@ -85,7 +85,7 @@ export default function Navbar() {
                   scrolled ? 'text-[#b48895]' : 'text-[#f5dfe5]'
                 }`}
               >
-                Author • Ghost Writer
+                Author • Ghostwriter
               </span>
             </div>
           </Link>

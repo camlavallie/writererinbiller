@@ -136,35 +136,50 @@ export default function About() {
           </div>
 
           {/* Content */}
-          <div>
-            <p className="mb-6 text-sm font-bold uppercase tracking-[0.45em] text-[#b48895]">
-              Meet Erin Biller
-            </p>
+<div>
+  <p className="mb-6 text-sm font-bold uppercase tracking-[0.45em] text-[#b48895]">
+    Meet Erin Biller
+  </p>
 
-            <h2 className="font-serif text-5xl leading-tight md:text-7xl">
-              Author.
-              <span className="block text-[#9f6374]">Ghostwriter.</span>
-              Storyteller.
-            </h2>
+  <h2 className="font-serif text-5xl leading-tight md:text-7xl">
+    Author.
+    <span className="block text-[#9f6374]">Ghostwriter.</span>
+    Storyteller.
+  </h2>
 
-            <p className="mt-10 max-w-2xl text-xl leading-9 text-[#5f4750] md:text-2xl">
-              Erin Biller is a devoted lover of Jesus, wife, mother, musician,
-              songwriter, author, and Kingdom storyteller.
-            </p>
+  <p className="mt-10 max-w-2xl text-xl leading-9 text-[#5f4750] md:text-2xl">
+    Erin Biller is a devoted lover of Jesus, wife, mother, musician,
+    songwriter, author, and Kingdom storyteller.
+  </p>
 
-            <p className="mt-6 max-w-2xl text-lg leading-8 text-[#5f4750]">
-              Through fiction, ghostwriting, and creative collaboration, she
-              helps shape meaningful stories marked by honesty, beauty, hope,
-              and eternity.
-            </p>
+  <p className="mt-6 max-w-2xl text-lg leading-8 text-[#5f4750]">
+    Through fiction, ghostwriting, and creative collaboration, she
+    helps shape meaningful stories marked by honesty, beauty, hope,
+    and eternity.
+  </p>
 
-            <a
-              href="/contact"
-              className="mt-10 inline-flex rounded-full bg-[#8b5f6d] px-8 py-4 text-sm font-semibold uppercase tracking-[0.22em] text-white transition-all duration-300 hover:-translate-y-1 hover:bg-[#6d4b57]"
-            >
-              Work With Erin
-            </a>
-          </div>
+  {/* Social + CTA */}
+  <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
+    <a
+      href="https://www.instagram.com/authorerinbiller/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group inline-flex items-center justify-center rounded-full border border-[#dfbcc7] bg-white px-6 py-4 text-sm font-semibold uppercase tracking-[0.18em] text-[#8b5f6d] shadow-[0_16px_50px_rgba(42,21,31,0.06)] transition-all duration-300 hover:-translate-y-1 hover:border-[#d89aaa] hover:bg-[#fff5f8]"
+    >
+      <span className="mr-2 text-base transition-transform duration-300 group-hover:scale-110">
+        ✦
+      </span>
+      Follow @authorerinbiller
+    </a>
+
+    <a
+      href="/contact"
+      className="inline-flex items-center justify-center rounded-full bg-[#8b5f6d] px-8 py-4 text-sm font-semibold uppercase tracking-[0.22em] text-white transition-all duration-300 hover:-translate-y-1 hover:bg-[#6d4b57]"
+    >
+      Work With Erin
+    </a>
+  </div>
+</div>
         </div>
       </section>
     </section>
